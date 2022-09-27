@@ -4,6 +4,7 @@
 
 This project involved refacorting existing HTML code to make the content more accessible to those with a disablity. Using semantic HTML elements, ensuring the code is structured logically, and including alt text to describe images helps those with vision impairments access this webpage and understand the content. Completing this project helped me learn how individuals with vision impairments get information from websites and it also helped me practice writing cleaner looking code.  
 
+[Link To Page](https://asreedy82.github.io/accessibility-challenge/)
 
 ## Installation
 
