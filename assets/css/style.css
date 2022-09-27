@@ -1,13 +1,18 @@
+
+
+/* Universal tag */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background color for the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Giving the Header padding, font, background color and font color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +20,18 @@ body {
     color: #ffffff;
 }
 
+/* Making headline 1 display inline and giving font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Assigning different font color for 'seo' part of Horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Giving nav section padding, margin, positioning it to the right of the Horiseon text, and assigning font type and size */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +40,31 @@ body {
     font-size: 20px;
 }
 
+/* Assigning list style values of 'none' */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Displaying list items in nav area inline */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Giving list items in nav area font color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Giving list items in nav area font size */
 p {
     font-size: 16px;
 }
 
+/** Large image before main content, establishing size, margin, and positioning in the center 
+    * width takes up entire screen
+**/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +74,26 @@ p {
     background-position: center;
 }
 
+/*Positioning images in Main section that float to the left of the text with 25px margin from text area */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Positioning images in Main section that float to the right of the text with 25px margin from text area  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Main content gets 75% of the screen width inside the background of the body*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Giving Aside section right margin, padding, floating to right of Main content, 20% width of screen, 100% height of main section, font type and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +105,64 @@ p {
     background-color: #2589bd;
 }
 
+/*Margin and font color for Lead Generation section in Aside */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Margin and font color for Brand Awareness section in Aside */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Margin and font color for Cost Management section in Aside */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Margin and text position for header of Lead Generation section in Aside */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Margin and text position for header of Brand Awareness section in Aside */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Margin and text position for header of Cost Management section in Aside */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Lead Generation image display type, margin, and max width*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Brand Awareness image display type, margin, and max width*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Cost Management image display type, margin, and max width*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Giving SEO section in Main section margin, padding, height, font type, font color, and background color*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +172,7 @@ p {
     color: #ffffff;
 }
 
+/*Giving reputation section in Main section margin, padding, height, font type, font color, and background color*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +182,7 @@ p {
     color: #ffffff;
 }
 
+/*Giving Social Media section in Main section margin, padding, height, font type, font color, and background color*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +192,40 @@ p {
     color: #ffffff;
 }
 
+/*Max height for SEO image*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*Max height for reputation image*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*Max height for Social Media image*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*Margin and font size for SEO heading */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Margin and font size for reputation heading */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Margin and font size for Social Media heading */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Padding, font type, text position for Footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +233,7 @@ p {
     text-align: center;
 }
 
+/*Font size for Footer headline */
 .footer h2 {
     font-size: 20px;
 }
